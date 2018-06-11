@@ -12,6 +12,16 @@ namespace ProyectoFinal
 {
     public partial class fm_menu : Form
     {
+        
+
+        public static void Main(string[] args)
+        {
+            // Starts the application.
+            Application.Run(new Splash());
+        }
+
+
+
         public fm_menu()
         {
             InitializeComponent();
@@ -138,19 +148,33 @@ namespace ProyectoFinal
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Cazabe();
             calculoCantidadPersona2();
+             img_cazabe.Visible = true;
+
+            if (img_Bandera.Visible=true)
+            {
+                img_Bandera.Visible = false;
+                img_cazabe.Visible = true;
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Arroz();
             calculoCantidadPersona();
+            img_Bandera.Visible = true;
+            if (img_cazabe.Visible = true)
+            {
+                img_cazabe.Visible = false;
+                img_Bandera.Visible = true;
+            }
 
 
         }
@@ -195,6 +219,9 @@ namespace ProyectoFinal
 
             button1.Visible = true;
             button2.Visible = true;
+
+            pictureBox3.Visible = true;
+            pictureBox4.Visible = true;
         }
 
         private void tb_CantidadP_TextChanged(object sender, EventArgs e)
@@ -208,7 +235,58 @@ namespace ProyectoFinal
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+
+
             Close();
+            Environment.Exit(0);
+
+
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_um2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_ing3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_cant1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_um3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_ing1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
