@@ -190,9 +190,7 @@ namespace ProyectoFinal
 			}
 		
 
-			{
-				tb_CantidadP.Clear();
-            }
+			
 
 
             button1.Visible = true;
