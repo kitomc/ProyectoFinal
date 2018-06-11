@@ -17,6 +17,8 @@ namespace ProyectoFinal
             InitializeComponent();
         }
 
+        void 
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -28,6 +30,31 @@ namespace ProyectoFinal
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_cant2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }
