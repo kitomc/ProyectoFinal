@@ -76,6 +76,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(740, 43);
             this.label1.Name = "label1";
@@ -87,6 +88,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(563, 43);
             this.label2.Name = "label2";
@@ -98,6 +100,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(440, 43);
             this.label3.Name = "label3";
@@ -109,6 +112,7 @@
             // lb_ing1
             // 
             this.lb_ing1.AutoSize = true;
+            this.lb_ing1.BackColor = System.Drawing.Color.Transparent;
             this.lb_ing1.Location = new System.Drawing.Point(754, 83);
             this.lb_ing1.Name = "lb_ing1";
             this.lb_ing1.Size = new System.Drawing.Size(65, 13);
@@ -119,6 +123,7 @@
             // lb_cant1
             // 
             this.lb_cant1.AutoSize = true;
+            this.lb_cant1.BackColor = System.Drawing.Color.Transparent;
             this.lb_cant1.Location = new System.Drawing.Point(577, 83);
             this.lb_cant1.Name = "lb_cant1";
             this.lb_cant1.Size = new System.Drawing.Size(49, 13);
@@ -129,6 +134,7 @@
             // lb_um1
             // 
             this.lb_um1.AutoSize = true;
+            this.lb_um1.BackColor = System.Drawing.Color.Transparent;
             this.lb_um1.Location = new System.Drawing.Point(441, 83);
             this.lb_um1.Name = "lb_um1";
             this.lb_um1.Size = new System.Drawing.Size(24, 13);
@@ -140,6 +146,7 @@
             // lb_ing2
             // 
             this.lb_ing2.AutoSize = true;
+            this.lb_ing2.BackColor = System.Drawing.Color.Transparent;
             this.lb_ing2.Location = new System.Drawing.Point(754, 119);
             this.lb_ing2.Name = "lb_ing2";
             this.lb_ing2.Size = new System.Drawing.Size(65, 13);
@@ -151,6 +158,7 @@
             // lb_cant2
             // 
             this.lb_cant2.AutoSize = true;
+            this.lb_cant2.BackColor = System.Drawing.Color.Transparent;
             this.lb_cant2.Location = new System.Drawing.Point(577, 119);
             this.lb_cant2.Name = "lb_cant2";
             this.lb_cant2.Size = new System.Drawing.Size(49, 13);
@@ -162,6 +170,7 @@
             // lb_um2
             // 
             this.lb_um2.AutoSize = true;
+            this.lb_um2.BackColor = System.Drawing.Color.Transparent;
             this.lb_um2.Location = new System.Drawing.Point(441, 119);
             this.lb_um2.Name = "lb_um2";
             this.lb_um2.Size = new System.Drawing.Size(24, 13);
@@ -172,6 +181,7 @@
             // lb_ing3
             // 
             this.lb_ing3.AutoSize = true;
+            this.lb_ing3.BackColor = System.Drawing.Color.Transparent;
             this.lb_ing3.Location = new System.Drawing.Point(754, 144);
             this.lb_ing3.Name = "lb_ing3";
             this.lb_ing3.Size = new System.Drawing.Size(65, 13);
@@ -182,6 +192,7 @@
             // lb_cant3
             // 
             this.lb_cant3.AutoSize = true;
+            this.lb_cant3.BackColor = System.Drawing.Color.Transparent;
             this.lb_cant3.Location = new System.Drawing.Point(577, 144);
             this.lb_cant3.Name = "lb_cant3";
             this.lb_cant3.Size = new System.Drawing.Size(49, 13);
@@ -193,6 +204,7 @@
             // lb_um3
             // 
             this.lb_um3.AutoSize = true;
+            this.lb_um3.BackColor = System.Drawing.Color.Transparent;
             this.lb_um3.Location = new System.Drawing.Point(441, 144);
             this.lb_um3.Name = "lb_um3";
             this.lb_um3.Size = new System.Drawing.Size(24, 13);
@@ -202,7 +214,7 @@
             // 
             // tb_CantidadP
             // 
-            this.tb_CantidadP.Location = new System.Drawing.Point(101, 305);
+            this.tb_CantidadP.Location = new System.Drawing.Point(129, 263);
             this.tb_CantidadP.Name = "tb_CantidadP";
             this.tb_CantidadP.Size = new System.Drawing.Size(100, 20);
             this.tb_CantidadP.TabIndex = 4;
@@ -212,8 +224,9 @@
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(86, 265);
+            this.label19.Location = new System.Drawing.Point(114, 223);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(131, 13);
             this.label19.TabIndex = 6;
@@ -221,8 +234,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(307, 171);
+            this.pictureBox1.Location = new System.Drawing.Point(649, 171);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(249, 277);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -231,6 +245,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(881, 12);
@@ -244,6 +259,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(910, 450);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -266,6 +283,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "fm_menu";
             this.Text = "Form1";
+            this.TransparencyKey = System.Drawing.Color.LightGray;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
