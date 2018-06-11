@@ -182,9 +182,16 @@ namespace ProyectoFinal
 
         private void tb_CantidadP_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar==127)
-            {
-                tb_CantidadP.Clear();
+			if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+			{
+				MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+				e.Handled = true;
+				return;
+			}
+		
+
+			{
+				tb_CantidadP.Clear();
             }
 
 
