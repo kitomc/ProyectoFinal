@@ -299,9 +299,9 @@
 			// pictureBox6
 			// 
 			this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-			this.pictureBox6.Location = new System.Drawing.Point(829, 420);
+			this.pictureBox6.Location = new System.Drawing.Point(836, 375);
 			this.pictureBox6.Name = "pictureBox6";
-			this.pictureBox6.Size = new System.Drawing.Size(119, 88);
+			this.pictureBox6.Size = new System.Drawing.Size(100, 65);
 			this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBox6.TabIndex = 12;
 			this.pictureBox6.TabStop = false;
